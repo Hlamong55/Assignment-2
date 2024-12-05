@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio</title>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+  .manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+  .montagu-slab-font {
+  font-family: "Montagu Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+  .dancing-font{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+    </style>
+        
+</head>
+<body class="bg-black w-10/12 mx-auto">
+
+    <header class="container ">
+       <!-- navbar -->
+        <nav class="w-full flex items-center justify-between mt-14">
+            <div class="logo flex items-center">
+                <img class="h-16 w-24 rounded-full" src="./logo1.jpg" alt="">
+                <h1 class="text-[#d946ef] dancing-font text-5xl">LOGO</h1>
+            </div>
+            
+            <div class="menu-bar text-white manrope-font flex gap-10 items-center">
+                <ul class="flex gap-8">
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Testimonials</li>
+                </ul>
+
+                <div>
+                    <button class="px-7 py-3 rounded-full text-black bg-[#E6AA32]">Download CV</button>
+                </div>
+            </div>
+        </nav>
+       <!-- navbar end  -->  
+
+
+       <!-- banner -->
+        <section class="banner w-[1280px] h-[390px] flex items-center justify-between gap-2 mt-10">
+            <div class="descrip mt-24">
+
+               <div>
+                <h1 class="manrope-font text-[#797C86]">Web Developer</h1>
+                <h1 class="text-white text-5xl montagu-slab-font ">HI! This is <br> 
+                    <span class="text-[#E6AA32]">Mong Marma</span></h1>
+
+                <p class="manrope-font text-[#797C86] mt-8">
+                    As a web designer with four years of experience, I specialize in <br>
+                    creating visually appealing and user-friendly websites. My <br>
+                    expertise includes responsive design, UI/UX principles, and <br>
+                    collaborating with clients to bring their visions to life.
+                </p>    
+               </div>
+
+               <div class="flex items-center mt-10">
+                <button class="bg-[#E6AA32] px-7 py-3 rounded-full text-black">Let’s Connect</button>
+                <button class="text-white px-5 py-3">View Portfolios</button>
+                <img class="h-3" src="./Arrow7.png" alt="">
+               </div>
+
+            </div>
+
+            <div>
+                <img src="./unsplash.png" alt="">
+            </div>
+        </section>      
+       <!-- banner end -->
+    </header>
+
+
+    <main>
+        <!-- grid -->
+        <section class="descrip mt-40 ">
+            <div class="manrope-font text-center space-y-5">
+                <h1 class="text-[#797C86]">SPECIALTIES</h1>
+                <h1 class="text-white text-4xl font-bold">MY SPECIALTIES</h1>
+                <p class="text-[#797C86]">As a web designer with four years of experience, I specialize in creating visually appealing <br>
+                   and user-friendly websites. My expertise includes responsive design.
+                </p>
+            </div>
+        </section>
+
+        <section>
+           <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
+
+                <!-- card1 -->
+                 <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                   <div class="flex justify-center">
+                    <img src="./web_pic/Web development.png" alt="">
+                   </div>
+                    <h1 class="font-bold text-xl text-white my-3 ">Front-End Development</h1>
+                    <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                 </div>
+                <!-- card2 -->
+                 <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                   <div class="flex justify-center">
+                    <img src="./web_pic/fi_12884741.png" alt="">
+                   </div>
+                    <h1 class="font-bold text-xl text-white my-3 ">Back-End Development</h1>
+                    <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                 </div>
+                <!-- card3 -->
+                 <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                   <div class="flex justify-center">
+                    <img src="./web_pic/fi_14466854.png" alt="">
+                   </div>
+                    <h1 class="font-bold text-xl text-white my-3 ">Full-Stack Development</h1>
+                    <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                 </div>
+                <!-- card4 -->
+                 <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                   <div class="flex justify-center">
+                    <img src="./web_pic/fi_1149171.png" alt="">
+                   </div>
+                    <h1 class="font-bold text-xl text-white my-3 ">Web Application Security</h1>
+                    <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                 </div>
+                <!-- card5 -->
+                 <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                   <div class="flex justify-center">
+                    <img src="./web_pic/fi_14666949.png" alt="">
+                   </div>
+                    <h1 class="font-bold text-xl text-white my-3 ">E-commerce Development</h1>
+                    <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                 </div>
+                <!-- card6 -->
+                 <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                   <div class="flex justify-center">
+                    <img src="./web_pic/fi_2316109.png" alt="">
+                   </div>
+                    <h1 class="font-bold text-xl text-white my-3 ">Cloud-Based Development</h1>
+                    <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                 </div>
+                <!-- card7 -->
+                 <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                   <div class="flex justify-center">
+                    <img src="./web_pic/fi_7991055.png" alt="">
+                   </div>
+                    <h1 class="font-bold text-xl text-white my-3 ">Progressive Web Apps</h1>
+                    <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                 </div>
+                <!-- card8 -->
+                 <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                   <div class="flex justify-center">
+                    <img src="./web_pic/fi_12133548.png" alt="">
+                   </div>
+                    <h1 class="font-bold text-xl text-white my-3 ">AI-Powered Development</h1>
+                    <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                 </div>
+              
+           </div>
+           
+        </section>
+        <!-- grid end -->
+ 
+
+        <!-- Recent work -->
+        <section class="work-descrip mt-40 ">
+            <div class="manrope-font text-center space-y-5">
+                <h1 class="text-[#797C86]"> RECENT WORKS </h1>
+                <h1 class="text-white text-4xl font-bold"> MY RECENT WORKS </h1>
+                <p class="text-[#797C86] lg:w-5/12 mx-auto">As a web designer with four years of experience, I specialize in creating visually appealing
+                   and user-friendly websites. My expertise includes responsive design.
+                </p>
+            </div>
+        </section>
+
+        <section class="mt-10">
+            <div class="grid lg:grid-cols-3 gap-5">
+                <!-- card1 -->
+                <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                </div>
+
+                <!-- card2 -->
+                <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                </div>
+
+                <!-- card3 -->
+                <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                </div>
+
+                <!-- card4 -->
+                <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                </div>
+
+                <!-- card5 -->
+                <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                </div>
+
+                <!-- card6 -->
+                <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                </div>
+            </div>
+        </section>
+        <!-- end recent -->
+
+
+       <!-- other -->
+       <section class="other-descrip mt-40">
+                <div class="manrope-font text-center space-y-5">
+                    <h1 class="text-[#797C86]">SERVICES</h1>
+                    <h1 class="text-white text-4xl font-bold">MY OTHER SERVICES</h1>
+                    <p class="text-[#797C86]">As a web designer with four years of experience, I specialize in creating visually appealing <br>
+                       and user-friendly websites. My expertise includes responsive design.
+                    </p>
+                </div>
+        </section>
+
+        <section>
+            <div class="grid  grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
+                <!-- card1 -->
+                <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                     <h1 class="font-bold text-lg text-white my-3 ">Website Development</h1>
+                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  </div>
+                <!-- card2 -->
+                <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                     <h1 class="font-bold text-lg text-white my-3 ">E-Commerce Development</h1>
+                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  </div>
+                <!-- card3 -->
+                <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                     <h1 class="font-bold text-lg text-white my-3 ">Web App Development</h1>
+                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  </div>
+                <!-- card4 -->
+                <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                     <h1 class="font-bold text-lg text-white my-3 "> API Dev. & Integration</h1>
+                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  </div>
+                <!-- card5 -->
+                <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                     <h1 class="font-bold text-lg text-white my-3 ">Cloud-Based Solutions</h1>
+                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  </div>
+                <!-- card6 -->
+                <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                     <h1 class="font-bold text-lg text-white my-3 ">Web Perform. Optimization</h1>
+                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  </div>
+                <!-- card7 -->
+                <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                     <h1 class="font-bold text-lg text-white my-3 ">(SEO) Services</h1>
+                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  </div>
+                <!-- card8 -->
+                <div class= "bg-[#0E0E10] text-center px-7 py-10">
+                     <h1 class="font-bold text-lg text-white my-3 ">Website Maint. & Support</h1>
+                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  </div>
+            </div>
+        </section>
+        <!-- end other -->
+
+
+        <!-- FAW -->
+        <section class="mt-40">
+            <div>
+                <p class="text-2xl my-3 text-white">FAQ'S</p>
+                <h1 class="text-4xl font-bold text-white">Frequently Asked Questions </h1>
+                <div class="my-3">
+                    <hr>
+                </div>
+
+                <!-- que 1 -->
+                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold">What areas of web development do you focus on?</h3>
+                        <p class="my-3">I specialize in web development, creating websites that deliver unique user experiences.</p>
+                     </div>
+                     <div>
+                        <img src="./web_pic/Button (1).png" alt="">
+                     </div>
+                </div>
+                <hr>
+
+                <!-- que 2 -->
+                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                    <div>
+                        <h3 class="text-2xl">What areas of web development do you focus on?</h3>
+                        
+                     </div>
+                     <div>
+                        <img src="./web_pic/Button.png" alt="">
+                     </div>
+                </div>
+                <hr>
+
+                <!-- que 3 -->
+                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                    <div>
+                        <h3 class="text-2xl">What areas of web development do you focus on?</h3>
+                        
+                     </div>
+                     <div>
+                        <img src="./web_pic/Button.png" alt="">
+                     </div>
+                </div>
+                <hr>
+
+                <!-- que 4 -->
+                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                    <div>
+                        <h3 class="text-2xl">What areas of web development do you focus on?</h3>
+                       
+                     </div>
+                     <div>
+                        <img src="./web_pic/Button.png" alt="">
+                     </div>
+                </div>
+                <hr>
+
+                <!-- que 5-->
+                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                    <div>
+                        <h3 class="text-2xl">What areas of web development do you focus on?</h3>
+                      
+                     </div>
+                     <div>
+                        <img src="./web_pic/Button.png" alt="">
+                     </div>
+                </div>
+                
+
+           </div>
+        </section>
+
+    </main>
+
+   
+
+    <footer class="mt-40">
+        <!-- footer links -->
+        <section class="mt-10 flex justify-around manrope-font">
+            <div>
+                <ul class="text-white space-y-4">
+                    <li class="text-[#797C86]">SOLUTIONS<li>
+                    <li>GLINTOPIA</li> 
+                    <li>FLUXWAY</li>
+                    <li>FABLE'S</li>
+                    <li>POWERCORE</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="text-white space-y-4">
+                    <li class="text-[#797C86]">CUSTOMERS<li>
+                    <li>GLINTOPIA</li>
+                    <li>FLUXWAY</li>
+                    <li>FABLE'S</li>
+                    <li>POWERCORE</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="text-white space-y-4">
+                    <li class="text-[#797C86]">PARTNERS<li>
+                    <li>GLINTOPIA</li>
+                    <li>FLUXWAY</li>
+                    <li>FABLE'S</li>
+                    <li>POWERCORE</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="text-white space-y-4">
+                    <li class="text-[#797C86]">STAKEHOLDERS<li>
+                    <li>GLINTOPIA</li>
+                    <li>FLUXWAY</li>
+                    <li>FABLE'S</li>
+                    <li>POWERCORE</li>
+                </ul>
+            </div> 
+            
+            <div>
+                <ul class="text-white space-y-4">
+                    <li class="text-[#797C86]">OFFERINGS</li>
+                    <li>VISIONS</li>
+                    <li>GATHERINGS</li>
+                    <li>BIZSPHERE</li>
+                </ul>
+            </div>
+        </section> <br>
+        <!-- end link -->
+
+
+        <!-- last footer -->
+         <section class="text-[#797C86] mt-24 my-5 manrope-font flex justify-between ">
+            <div>
+                <h1>Terms & Coditions &nbsp  | &nbsp  Privacy Policy</h1>
+            </div>
+
+            <div>
+                <h1> &#169 2024 All rights reserved</h1>
+            </div>
+         </section>
+         <!-- finish -->
+    </footer>
+    
+</body>
+</html>
