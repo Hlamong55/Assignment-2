@@ -38,15 +38,16 @@
 </head>
 <body class="bg-black w-10/12 mx-auto">
 
-    <header class="container ">
+    <header class="container lg:mt-[50px]  md:mt-[30px]">
        <!-- navbar -->
         <nav class="w-full flex items-center justify-between mt-14">
+
             <div class="logo flex items-center">
                 <img class="h-16 w-24 rounded-full" src="./logo1.jpg" alt="">
                 <h1 class="text-[#d946ef] dancing-font text-5xl">LOGO</h1>
             </div>
-            
-            <div class="menu-bar text-white manrope-font flex gap-10 items-center">
+
+              <div class="menu-bar text-white manrope-font flex gap-10 items-center">
                 <ul class="flex gap-8">
                     <li>Home</li>
                     <li>About Me</li>
@@ -57,18 +58,19 @@
                 <div>
                     <button class="px-7 py-3 rounded-full text-black bg-[#E6AA32]">Download CV</button>
                 </div>
-            </div>
+              </div>
+
         </nav>
        <!-- navbar end  -->  
 
 
        <!-- banner -->
-        <section class="banner w-[1280px] h-[390px] flex items-center justify-between gap-2 mt-10">
+        <section class="banner w-[1280px] h-[390px] flex items-center justify-between gap-2 mt-20">
             <div class="descrip mt-24">
 
                <div>
                 <h1 class="manrope-font text-[#797C86]">Web Developer</h1>
-                <h1 class="text-white text-5xl montagu-slab-font ">HI! This is <br> 
+                <h1 class="text-white text-6xl montagu-slab-font ">HI! This is <br> 
                     <span class="text-[#E6AA32]">Mong Marma</span></h1>
 
                 <p class="manrope-font text-[#797C86] mt-8">
@@ -80,15 +82,17 @@
                </div>
 
                <div class="flex items-center mt-10">
-                <button class="bg-[#E6AA32] px-7 py-3 rounded-full text-black">Let’s Connect</button>
+                <button class="bg-[#E6AA32] px-10 py-3 rounded-full text-black">Let’s Connect</button>
                 <button class="text-white px-5 py-3">View Portfolios</button>
                 <img class="h-3" src="./Arrow7.png" alt="">
                </div>
 
             </div>
 
-            <div>
-                <img src="./unsplash.png" alt="">
+            <div class="bg-gradient-to-l from-[#17171A]">
+                <div>
+                    <img src="./unsplash.png" alt="">
+                </div>
             </div>
         </section>      
        <!-- banner end -->
@@ -147,7 +151,7 @@
                    <div class="flex justify-center">
                     <img src="./web_pic/fi_14666949.png" alt="">
                    </div>
-                    <h1 class="font-bold text-xl text-white my-3 ">E-commerce Development</h1>
+                    <h1 class="font-bold text-lg text-white my-3 ">E-commerce Development</h1>
                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                  </div>
                 <!-- card6 -->
@@ -155,7 +159,7 @@
                    <div class="flex justify-center">
                     <img src="./web_pic/fi_2316109.png" alt="">
                    </div>
-                    <h1 class="font-bold text-xl text-white my-3 ">Cloud-Based Development</h1>
+                    <h1 class="font-bold text-lg text-white my-3 ">Cloud-Based Development</h1>
                     <p class="text-[#797C86]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                  </div>
                 <!-- card7 -->
@@ -196,26 +200,32 @@
             <div class="grid lg:grid-cols-3 gap-5">
                 <!-- card1 -->
                 <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                    <img class="h-[250px] w-[350px]" src="./work_pic/FED.jpg" alt="">
                 </div>
 
                 <!-- card2 -->
                 <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                    <img class="h-[250px] w-[350px]" src="./work_pic/BED.webp" alt="">
                 </div>
 
                 <!-- card3 -->
                 <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                    <img class="h-[250px] w-[350px]" src="./work_pic/full-stack-project-tools.jpg" alt="">
                 </div>
 
                 <!-- card4 -->
                 <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                    <img class="h-[250px] w-[350px]" src="./work_pic/microsoft-project-cloud.png" alt="">
                 </div>
 
                 <!-- card5 -->
                 <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                    <img class="h-[250px] w-[350px]" src="./work_pic/web-application-security.jpg" alt="">
                 </div>
 
                 <!-- card6 -->
                 <div class="h-[250px] w-[350px] bg-[#0E0E10]">
+                    <img class="h-[250px] w-[350px]" src="./work_pic/Ecom.png" alt="">
                 </div>
             </div>
         </section>
@@ -280,20 +290,20 @@
         <!-- end other -->
 
 
-        <!-- FAW -->
-        <section class="mt-40">
-            <div>
-                <p class="text-2xl my-3 text-white">FAQ'S</p>
-                <h1 class="text-4xl font-bold text-white">Frequently Asked Questions </h1>
-                <div class="my-3">
+        <!-- FAQ -->
+        <section class="mt-40 ">
+            <div class="manrope-font">
+                <p class="text-xl my-3 text-[#797C86]">FAQ'S</p>
+                <h1 class="text-4xl font-bold text-white pb-8">Frequently Asked Questions </h1>
+                <div class="my-5">
                     <hr>
                 </div>
 
                 <!-- que 1 -->
-                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                <div  class="text-[#AFB0B6] px-8 py-5 flex justify-between items-center">
                     <div>
-                        <h3 class="text-2xl font-bold">What areas of web development do you focus on?</h3>
-                        <p class="my-3">I specialize in web development, creating websites that deliver unique user experiences.</p>
+                        <h3 class="text-xl font-bold">What areas of web development do you focus on?</h3>
+                        <p class="my-3 text-base text-[#797C86]">I specialize in web development, creating websites that deliver unique user experiences.</p>
                      </div>
                      <div>
                         <img src="./web_pic/Button (1).png" alt="">
@@ -302,9 +312,9 @@
                 <hr>
 
                 <!-- que 2 -->
-                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                <div  class="text-[#AFB0B6] px-8 py-5 flex justify-between items-center">
                     <div>
-                        <h3 class="text-2xl">What areas of web development do you focus on?</h3>
+                        <h3 class="text-xl">What areas of web development do you focus on?</h3>
                         
                      </div>
                      <div>
@@ -314,9 +324,9 @@
                 <hr>
 
                 <!-- que 3 -->
-                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                <div  class="text-[#AFB0B6] px-8 py-5 flex justify-between items-center">
                     <div>
-                        <h3 class="text-2xl">What areas of web development do you focus on?</h3>
+                        <h3 class="text-xl">What areas of web development do you focus on?</h3>
                         
                      </div>
                      <div>
@@ -326,9 +336,9 @@
                 <hr>
 
                 <!-- que 4 -->
-                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                <div  class="text-[#AFB0B6] px-8 py-5 flex justify-between items-center">
                     <div>
-                        <h3 class="text-2xl">What areas of web development do you focus on?</h3>
+                        <h3 class="text-xl">What areas of web development do you focus on?</h3>
                        
                      </div>
                      <div>
@@ -338,9 +348,9 @@
                 <hr>
 
                 <!-- que 5-->
-                <div  class="text-white px-3 py-5 flex justify-between items-center">
+                <div  class="text-[#AFB0B6] px-8 py-5 flex justify-between items-center">
                     <div>
-                        <h3 class="text-2xl">What areas of web development do you focus on?</h3>
+                        <h3 class="text-xl">What areas of web development do you focus on?</h3>
                       
                      </div>
                      <div>
@@ -356,9 +366,9 @@
 
    
 
-    <footer class="mt-40">
+    <footer class="mt-60">
         <!-- footer links -->
-        <section class="mt-10 flex justify-around manrope-font">
+        <section class="mt-10 pb-20 flex justify-around manrope-font ">
             <div>
                 <ul class="text-white space-y-4">
                     <li class="text-[#797C86]">SOLUTIONS<li>
@@ -407,12 +417,12 @@
                     <li>BIZSPHERE</li>
                 </ul>
             </div>
-        </section> <br>
+        </section> <hr>
         <!-- end link -->
 
 
         <!-- last footer -->
-         <section class="text-[#797C86] mt-24 my-5 manrope-font flex justify-between ">
+         <section class="text-[#797C86] mt-10 py-5 manrope-font flex justify-between ">
             <div>
                 <h1>Terms & Coditions &nbsp  | &nbsp  Privacy Policy</h1>
             </div>
